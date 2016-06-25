@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculater"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1250">
+        Title="MainWindow" Height="400" Width="625">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="500"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
 
 
         <Border BorderBrush="DimGray">
 
-            <TextBlock Width="1000"
+            <TextBlock Width="500"
                    Height="150"
                    Background="LightBlue"
                    HorizontalAlignment = "Center"
@@ -29,7 +29,7 @@
 
 
         </Grid>
-        <Grid Grid.Row="1" Height="500" Width="900">
+        <Grid Grid.Row="1" Height="250" Width="450">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
